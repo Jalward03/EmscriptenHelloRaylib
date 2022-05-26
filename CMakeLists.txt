@@ -16,7 +16,7 @@ if(MSVC)
 	set(RAYLIB_DIR "${CMAKE_HOME_DIRECTORY}/libs/Raylib3")
 	set(RAYLIB_INCLUDE_DIR "${RAYLIB_DIR}/include")
 	set(RAYLIB_LIBRARY_DIR "${RAYLIB_DIR}/bin/x64/${CMAKE_BUILD_TYPE}/")
-	set(RAYLIB_LIBRARIES "winmm.lib;${RAYLIB_LIBRARY_DIR}/raylib.lib;")
+	set(RAYLIB_LIBRARIES "${RAYLIB_LIBRARY_DIR}/raylib.lib;winmm.lib;")
 elseif(EMSCRIPTEN)
 	set(RAYLIB_DIR "${CMAKE_HOME_DIRECTORY}/libs/Raylib3")
 	set(RAYLIB_INCLUDE_DIR "${RAYLIB_DIR}/include")
@@ -30,7 +30,7 @@ endif()
 # =============================================================================
 add_subdirectory ("projects/HelloRaylib")
 add_subdirectory ("projects/Pong")
-add_subdirectory ("projects/Breakout")
+add_subdirectory ("projects/Breakout2")
 
 
 # TODO: add any additional sub projects here!
