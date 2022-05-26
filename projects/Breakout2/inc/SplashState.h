@@ -12,7 +12,7 @@ public:
     virtual void Update(float dt);
     virtual void Draw();
 
-    Sound startUp = LoadSound("./Sounds/startup.wav");
+    Sound startUp = LoadSound("./assets/startup.wav");
 
 protected:
 private:

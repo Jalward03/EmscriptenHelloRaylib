@@ -15,13 +15,13 @@ public:
 	virtual void Draw();
 	Color GetTileColor(int tileValue);
 
-	Sound brickHit = LoadSound("./Sounds/brickhit.wav");
-	Sound paddleHit = LoadSound("./Sounds/paddlehit.wav");
-	Sound win = LoadSound("./Sounds/win.wav");
-	Sound music = LoadSound("./Sounds/music.mp3");
-	Sound perfect = LoadSound("./Sounds/perfect.wav");
-	Sound amazing = LoadSound("./Sounds/amazing.wav");
-	Sound startUp = LoadSound("./Sounds/startup.wav");
+	Sound brickHit = LoadSound("./assets/brickhit.wav");
+	Sound paddleHit = LoadSound("./assets/paddlehit.wav");
+	Sound win = LoadSound("./assets/win.wav");
+	Sound music = LoadSound("./assets/music.mp3");
+	Sound perfect = LoadSound("./assets/perfect.wav");
+	Sound amazing = LoadSound("./assets/amazing.wav");
+	Sound startUp = LoadSound("./assets/startup.wav");
 
 
 
