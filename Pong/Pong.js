@@ -196,7 +196,7 @@ Module['FS_createPath']("/", "assets", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/.gitkeep", "start": 0, "end": 0}], "remote_package_size": 0, "package_uuid": "5faec0bc-f4fd-491e-a4c4-51222fcae433"});
+    loadPackage({"files": [{"filename": "/assets/.gitkeep", "start": 0, "end": 0}], "remote_package_size": 0, "package_uuid": "4b378b1d-7c28-4d11-a8fb-8fa348eb38fd"});
 
   })();
 
