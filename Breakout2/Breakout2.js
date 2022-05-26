@@ -196,7 +196,7 @@ Module['FS_createPath']("/", "assets", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/perfect.wav", "start": 0, "end": 50220, "audio": 1}, {"filename": "/assets/startup.wav", "start": 50220, "end": 310192, "audio": 1}, {"filename": "/assets/paddlehit.wav", "start": 310192, "end": 509004, "audio": 1}, {"filename": "/assets/brickhit.wav", "start": 509004, "end": 703848, "audio": 1}, {"filename": "/assets/.gitkeep", "start": 703848, "end": 703848}, {"filename": "/assets/amazing.wav", "start": 703848, "end": 757140, "audio": 1}, {"filename": "/assets/playgame.wav", "start": 757140, "end": 1004370, "audio": 1}, {"filename": "/assets/win.wav", "start": 1004370, "end": 1268502, "audio": 1}], "remote_package_size": 1268502, "package_uuid": "daac7372-a904-4504-81da-ba8e11ae54a8"});
+    loadPackage({"files": [{"filename": "/assets/music.mp3", "start": 0, "end": 2726902, "audio": 1}, {"filename": "/assets/perfect.wav", "start": 2726902, "end": 2777122, "audio": 1}, {"filename": "/assets/startup.wav", "start": 2777122, "end": 3037094, "audio": 1}, {"filename": "/assets/paddlehit.wav", "start": 3037094, "end": 3235906, "audio": 1}, {"filename": "/assets/brickhit.wav", "start": 3235906, "end": 3430750, "audio": 1}, {"filename": "/assets/.gitkeep", "start": 3430750, "end": 3430750}, {"filename": "/assets/amazing.wav", "start": 3430750, "end": 3484042, "audio": 1}, {"filename": "/assets/playgame.wav", "start": 3484042, "end": 3731272, "audio": 1}, {"filename": "/assets/win.wav", "start": 3731272, "end": 3995404, "audio": 1}], "remote_package_size": 3995404, "package_uuid": "49afba89-e6ab-4276-98e9-976092f14f24"});
 
   })();
 
