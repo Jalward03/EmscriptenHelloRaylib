@@ -16,7 +16,7 @@ private:
 
     Vector2 pos = { 0, 0 };
     Vector2 size = { 0, 0 };
-    Vector2 speed = { 0, 600.0f };
+    Vector2 speed = { 0, 15.0f };
     int lives = 3;
     
 };

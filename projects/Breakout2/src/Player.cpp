@@ -19,11 +19,11 @@ void Player::Update(float dt)
 {
 	if (IsKeyDown(KEY_LEFT) && pos.x > 0)
 	{
-		pos.x -= speed.y * dt;
+		pos.x -= speed.y;
 	}
 	if (IsKeyDown(KEY_RIGHT) && pos.x < (540) - 100)
 	{
-		pos.x += speed.y * dt;
+		pos.x += speed.y ;
 	}
 
 	

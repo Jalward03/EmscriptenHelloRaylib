@@ -5,7 +5,7 @@ class Ball
 {
 public:
     Vector2 dir = { 0.707f, 0.707f };
-    float speed = 480.0f;
+    float speed = 12.0f;
     Vector2 pos = { 0, 0 };
 
 public:

@@ -17,8 +17,8 @@ void Ball::Unload()
 }
 void Ball::Update(float dt)
 {
-	pos.x += dir.x *speed * dt;
-	pos.y += dir.y *speed * dt;
+	pos.x += dir.x *speed;
+	pos.y += dir.y *speed;
 
 	if (pos.x < 0)   dir.x = -dir.x;
 	if (pos.x > 540) dir.x = -dir.x;
